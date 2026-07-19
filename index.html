@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mukarram House Plan | 3D Dossier</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script type="importmap">
+{
+"imports":{
+"three":"https://unpkg.com/three@0.165.0/build/three.module.js",
+"OrbitControls":"https://unpkg.com/three@0.165.0/examples/jsm/controls/OrbitControls.js"
+}
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<h1>MUKARRAM HOUSE PLAN</h1>
+
+<p>Luxury Modern 3BHK • 800 Sqft</p>
+
+</div>
+
+<nav>
+
+<button id="allBtn">All</button>
+
+<button id="groundBtn">Ground</button>
+
+<button id="firstBtn">First</button>
+
+<button id="terraceBtn">Terrace</button>
+
+</nav>
+
+</header>
+
+<section class="info">
+
+<div class="card">
+
+<h2>800</h2>
+
+<p>Sqft Plot</p>
+
+</div>
+
+<div class="card">
+
+<h2>3BHK</h2>
+
+<p>Ground Floor</p>
+
+</div>
+
+<div class="card">
+
+<h2>₹30L</h2>
+
+<p>Budget</p>
+
+</div>
+
+<div class="card">
+
+<h2>Corner</h2>
+
+<p>20×40 Plot</p>
+
+</div>
+
+</section>
+
+<section id="viewer">
+
+<canvas id="canvas"></canvas>
+
+</section>
+
+<div class="camera">
+
+<button id="front">Front</button>
+
+<button id="left">Left</button>
+
+<button id="right">Right</button>
+
+<button id="top">Top</button>
+
+<button id="iso">3D View</button>
+
+</div>
+
+<script type="module" src="js/house.js"></script>
+
+</body>
+
+</html>
